@@ -18,41 +18,42 @@ In this project, I implemented a detection mechanism in Lima Charlie to identify
 <p align="center">
 <br />
  
-Installing the Wazuh instance through Linode Cloud provider: 
+SOAR-EDR Playbook Workflow guide/diagram of the project/lab: 
  
  <br/>
- <img src="https://imgur.com/ez28QqM.png" height="80%" width="80%" "/>
+ <img src="https://imgur.com/cNXT7Wr.png" height="80%" width="80%" "/>
 <br />
 <br />
- Deploying a new Wazuh agent from the portal:
-<img src="https://imgur.com/C1hX2Xy.png" height="80%" width="80%" />
+ Creating an installation key as the first step in the LimaCharlie interface :
+<img src="https://imgur.com/0R6cvl2.png" height="80%" width="80%" />
 <br />
 <br />
-Installing the wazuh configuration with Windows powershell on Windows 11 agent: <br/>
-<img src="https://imgur.com/9Hy24zZ.png" height="80%" width="80%" />
+Installing the LimaCharlie executable with Windows powershell on Windows 11 agent: <br/>
+<img src="https://imgur.com/Icd9fEN.png" height="80%" width="80%" />
 <br />
 <br />
-Staring the Wazuh service on the agent:  <br/>
-<img src="https://imgur.com/qzwMFS4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+LimaCharlie Service running on the agent/system/Window 11 machine:  <br/>
+<img src="https://imgur.com/ZW8IjFC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />Two agents deployed as wazuh agents :- Windows Machine and Kali Linux :  <br/>
-<img src="https://imgur.com/rzU7LVR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />LimaCharlie is extensively helpful in illustrating the key aspects related to the deployed agent, On the left hand side 
+it depicts all information about Autoruns, Console, Drivers, FileSystem etc:  <br/>
+<img src="https://imgur.com/QWBMEsr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Security configuration assessment of agent  <br/>
-<img src="https://imgur.com/EbqGCS2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Even the process management can be handeled from the interface,  <br/>
+<img src="https://imgur.com/wE2eCoS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Security Configuration assessment  <br/>
-<img src="https://imgur.com/LcnBwQ9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Editing the OSSEC.confg file for active response on rule based Wazuh detection and i also changed the time from 180 to 30 just to block a user after an invalid authentication  <br/>
-<img src="https://imgur.com/lTb66Ck.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ authentication  <br/>
+<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- Editing the configuration file to alter the Vulnerability assessment check to YES  <br/>
-<img src="https://imgur.com/kU6lpM8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+  YES  <br/>
+<img src=".png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 
